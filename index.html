@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean &amp; Simple | Умный клининг для Астаны</title>
+    <meta name="description" content="Clean & Simple автоматизирует городскую уборку в Астане: IoT-мониторинг, AI-маршрутизация, готовые бригады и техника уже завтра.">
+    <style>
+      :root { --accent: #2e7d32; --accent-light: #e8f5e9; --text: #1c1c1c; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { color: var(--text); background: #fff; line-height: 1.6; }
+      a { text-decoration: none; color: inherit; }
+      header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+      header h1 { font-size: 1.5rem; color: var(--accent); }
+      nav a { margin-left: 1.5rem; font-weight: 500; }
+      .hero { background: var(--accent-light); padding: 6rem 1rem 4rem; text-align: center; }
+      .hero h2 { font-size: 2.25rem; margin-bottom: 1rem; }
+      .hero p { font-size: 1.125rem; max-width: 40rem; margin: 0 auto 2rem; }
+      .btn { display: inline-block; padding: 0.75rem 1.5rem; background: var(--accent); color: #fff; border-radius: 4px; transition: opacity 0.2s; }
+      .btn:hover { opacity: 0.9; }
+      .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 1rem; padding: 2rem; max-width: 1200px; margin: 0 auto; }
+      .stat-card { background: #fafafa; border: 1px solid #f0f0f0; border-radius: 8px; padding: 1.5rem; text-align: center; }
+      .stat-card h3 { font-size: 1.75rem; color: var(--accent); margin-bottom: 0.25rem; }
+      .stat-card p { font-size: 0.875rem; }
+      .steps { padding: 3rem 2rem; max-width: 1000px; margin: 0 auto; }
+      .step-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 2rem; }
+      .step { text-align: center; }
+      .step span { display: inline-block; width: 48px; height: 48px; border-radius: 50%; background: var(--accent); color: #fff; line-height: 48px; font-weight: 700; margin-bottom: 0.5rem; }
+      .services { background: #fafafa; padding: 4rem 2rem; }
+      .services h2 { text-align: center; font-size: 2rem; margin-bottom: 2rem; }
+      .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+      .service-card { background: #fff; border: 1px solid #f0f0f0; border-radius: 8px; overflow: hidden; text-align: center; padding-bottom: 1.5rem; }
+      .service-card img { width: 100%; height: 160px; object-fit: cover; }
+      .service-card h3 { margin: 1rem 0 0.5rem; font-size: 1.25rem; }
+      .service-card p { font-size: 0.875rem; padding: 0 1rem 1rem; }
+      .benefits { padding: 4rem 2rem; max-width: 900px; margin: 0 auto; }
+      .benefits h2 { font-size: 2rem; margin-bottom: 1rem; text-align: center; }
+      .benefits ul { list-style: disc inside; }
+      .contact { background: #fff; padding: 4rem 2rem; text-align: center; }
+      .contact h2 { font-size: 2rem; margin-bottom: 1rem; }
+      .contact p { margin-bottom: 0.5rem; font-size: 1rem; }
+      .cta { background: var(--accent); color: #fff; text-align: center; padding: 4rem 2rem; }
+      .cta h2 { font-size: 2rem; margin-bottom: 1rem; }
+      footer { background: #fafafa; text-align: center; padding: 1.5rem 1rem; font-size: 0.875rem; }
+      @media(max-width:640px){ .hero h2{font-size:1.75rem;} }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Clean &amp; Simple</h1>
+      <nav>
+        <a href="#services">Решения</a>
+        <a href="#steps">Как начать</a>
+        <a href="#benefits">Преимущества</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>Бригады и техника для уборки города <br>уже завтра</h2>
+      <p>Умная платформа для клининга: IoT-датчики, AI-маршрутизация и более 1 000 проверенных специалистов — всё, чтобы Астана была чище.</p>
+      <a href="#contact" class="btn">Оставить заявку</a>
+    </section>
+    <section class="stats">
+      <div class="stat-card"><h3>4 часа</h3><p>с момента заявки до выезда экипажа</p></div>
+      <div class="stat-card"><h3>95 %</h3><p>конверсия выхода на смену</p></div>
+      <div class="stat-card"><h3>35 %</h3><p>экономия бюджета уборки</p></div>
+      <div class="stat-card"><h3>1 000+</h3><p>специалистов в базе</p></div>
+    </section>
+    <section id="steps" class="steps">
+      <h2 style="text-align:center; font-size:2rem; margin-bottom:1.5rem;">Как начать</h2>
+      <div class="step-grid">
+        <div class="step"><span>1</span><p>Согласование объёма и условий</p></div>
+        <div class="step"><span>2</span><p>Договор онлайн</p></div>
+        <div class="step"><span>3</span><p>Формирование бригады и маршрута</p></div>
+        <div class="step"><span>4</span><p>Фотоотчёт и документы в день работ</p></div>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <h2>Наши услуги</h2>
+      <div class="service-grid">
+        <div class="service-card"><img src="https://placehold.co/600x400?text=Уличная уборка" alt="Уличная уборка"><h3>Уличная уборка</h3><p>Смет, мойка и вынос мусора.</p><a href="#contact" class="btn">Заказать</a></div>
+        <div class="service-card"><img src="https://placehold.co/600x400?text=Уборка снега" alt="Уборка снега"><h3>Уборка снега</h3><p>Очистка улиц и дворов от снега и наледи.</p><a href="#contact" class="btn">Заказать</a></div>
+        <div class="service-card"><img src="https://placehold.co/600x400?text=Вывоз отходов" alt="Вывоз отходов"><h3>Вывоз отходов</h3><p>Контейнеры с IoT и регулярный вывоз.</p><a href="#contact" class="btn">Заказать</a></div>
+        <div class="service-card"><img src="https://placehold.co/600x400?text=Благоустройство" alt="Благоустройство"><h3>Благоустройство</h3><p>Покос травы и уход за зелёными зонами.</p><a href="#contact" class="btn">Заказать</a></div>
+      </div>
+    </section>
+    <section id="benefits" class="benefits">
+      <h2>Почему мы?</h2>
+      <ul>
+        <li>IoT‑мониторинг техники и контейнеров</li>
+        <li>AI‑маршруты для экономии времени и топлива</li>
+        <li>Проверенные бригады с медкомиссией</li>
+        <li>Отчёты и фото в день работ</li>
+      </ul>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Контакты</h2>
+      <p>Телефон: <a href="tel:+77058277052">+7 705 827 7052</a></p>
+      <p>Email: <a href="mailto:stankevichus.ionas@gmail.com">stankevichus.ionas@gmail.com</a></p>
+    </section>
+    <section class="cta">
+      <h2>Готовы начать?</h2>
+      <a href="#contact" class="btn" style="background:#fff; color:var(--accent);">Связаться</a>
+    </section>
+    <footer>
+      <p>© 2025 Clean & Simple, г. Астана, Казахстан</p>
+      <p>+7 705 827 7052 | stankevichus.ionas@gmail.com</p>
+    </footer>
+  </body>
+</html>
